@@ -1,3 +1,6 @@
 res://Player/house_rat.tscn
 res://World/world.tscn
 res://Player/house_rat.gd
+res://Enemy/enemy.gd
+res://Enemy/cat_1.tscn
+res://Enemy/cat_1.gd

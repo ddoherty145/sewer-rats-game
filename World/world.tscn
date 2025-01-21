@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dn440sdq85i2k"]
+[gd_scene load_steps=4 format=3 uid="uid://dn440sdq85i2k"]
 
 [ext_resource type="Texture2D" uid="uid://cdxsjayxqnayk" path="res://Textures/dirt_full_new.png" id="1_c2srs"]
 [ext_resource type="PackedScene" uid="uid://2a2qnx48k7cw" path="res://Player/house_rat.tscn" id="2_emuhy"]
+[ext_resource type="PackedScene" uid="uid://i10ghqbdxgmj" path="res://Enemy/cat_1.tscn" id="3_1wxgs"]
 
 [node name="World" type="Node2D"]
 
@@ -14,3 +15,7 @@ region_rect = Rect2(-4000, -4000, 4000, 4000)
 
 [node name="house_rat" parent="." instance=ExtResource("2_emuhy")]
 position = Vector2(-379, -304)
+
+[node name="Cat1" parent="." instance=ExtResource("3_1wxgs")]
+position = Vector2(493, 82)
+scale = Vector2(3.2586, 3.11824)

@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Player/house_rat.gd" id="1_jrqi6"]
 [ext_resource type="Texture2D" uid="uid://3bya4uecqf8p" path="res://Textures/Enemy/kolbold_strong.png" id="1_wpxbn"]
 
-[node name="house_rat" type="CharacterBody2D"]
+[node name="house_rat" type="CharacterBody2D" groups=["Player"]]
 motion_mode = 1
 script = ExtResource("1_jrqi6")
 

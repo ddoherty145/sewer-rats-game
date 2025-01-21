@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://i10ghqbdxgmj"]
+
+[ext_resource type="Script" path="res://Enemy/enemy.gd" id="1_b8qbb"]
+[ext_resource type="Texture2D" uid="uid://bjc8yefeabcgq" path="res://Textures/Enemy/Cat-2-Itch.png" id="1_o34i8"]
+
+[node name="Cat1" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_b8qbb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1, 1.01695)
+texture = ExtResource("1_o34i8")
+hframes = 2
