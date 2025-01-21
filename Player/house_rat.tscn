@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://2a2qnx48k7cw"]
+
+[ext_resource type="Script" path="res://Player/house_rat.gd" id="1_jrqi6"]
+[ext_resource type="Texture2D" uid="uid://3bya4uecqf8p" path="res://Textures/Enemy/kolbold_strong.png" id="1_wpxbn"]
+
+[node name="house_rat" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_jrqi6")
+
+[node name="KolboldStrong" type="Sprite2D" parent="."]
+position = Vector2(708, 477)
+texture = ExtResource("1_wpxbn")
+hframes = 2
